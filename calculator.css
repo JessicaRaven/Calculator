@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    background-color: aqua;
+    padding:0;
+}
+
+body *{
+    display:flex;
+    flex:1 1 0;
+
+}
+
+#ui{
+    flex:2 1;
+    flex-direction:column;
+}
+
+#buttons{
+    flex:4 1;
+}
+
+
+#numbers{
+    flex:4 1;
+    flex-direction: column;
+}
+
+#operators{
+    flex-direction: column;
+}
+
+
